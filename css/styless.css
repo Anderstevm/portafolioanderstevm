@@ -402,3 +402,24 @@
         position: relative;
         z-index: 2; 
     }
+
+@media (max-width: 1024px) {
+        .service-card {
+            width: 45%;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .service-card {
+            width: 100%; 
+        }
+        
+        .services {
+            padding: 60px 20px; 
+        }
+        
+        .services h2 {
+            font-size: 2rem;
+        }
+    
+    }
