@@ -1,239 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
-    color: #333;
-    line-height: 1.6;
-    background-color: #171142;
-}
-
-/* Base styles for all sections */
-section {
-    padding: 80px 50px;
-}
-
-/* General Link and button styles */
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-ul {
-    list-style: none;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Botones con estilo */
-.tarjeta, .botre, .tarjetacontratame, .cta {
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 50px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    text-align: center;
-    white-space: nowrap; /* Evita que el texto se parta en varias líneas */
-}
-
-.tarjeta {
-    background-color: #312682;
-    color: #fff;
-}
-
-.tarjeta:hover {
-    background-color: #ebf13c;
-    color: #312682;
-}
-
-.botre {
-    background-color: #312682;
-    color: #fff;
-    padding: 10px 20px;
-    margin-top: 10px;
-}
-
-.botre:hover {
-    background-color: #BF1584;
-    color: #fff;
-}
-
-.tarjetacontratame {
-    background-color: #D3D936;
-    color: #312682;
-}
-
-.tarjetacontratame:hover {
-    background-color: #312682;
-    color: #D3D936;
-}
-
-.cta {
-    background-color: #312682;
-    color: #fff;
-    padding: 15px;
-    border: none;
-    cursor: pointer;
-    font-size: 1.1rem;
-}
-
-.cta:hover {
-    background-color: #BF1584;
-}
-
-/* === Navbar === */
-.Navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 50px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-}
-
-.logo img {
-    width: 100px;
-    height: auto;
-}
-
-.nav-links, .cta-links {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-}
-
-.nav-links a {
-    font-weight: 500;
-    padding: 10px;
-    color: #312682;
-    transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-    color: #BF1584;
-}
-
-.hamburger {
-    display: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 2rem;
-    color: #312682;
-}
-
-/* === Hero Section === */
-.hero {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #fff;
-    padding: 0 50px;
-    background-image: url('../images/atras (2).gif');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 1;
-}
-
-.hero-content {
-    position: relative;
-    z-index: 2;
-    max-width: 800px;
-}
-
-.hero-content h1 {
-    font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-
-.hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 40px;
-}
-
-.hero-content .highlight {
-    color: #ebf13c;
-}
-
-/* === Services Section === */
-.services {
-    background-color: #312682;
-    text-align: center;
-}
-
-.services h2 {
-    font-size: 2.5rem;
-    margin-bottom: 50px;
-    color: #ffffff;
-}
-
-.service-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-}
-
-.service-card {
-    background-color: #ffffff;
-    padding: 30px;
-    border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    flex-basis: 250px;
-    flex-grow: 1;
-}
-
-.service-card h3 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-    color: #BF1584;
-}
-
-.service-card p {
-    font-size: 1rem;
-    color: #312682;
-}
-
-.service-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-}
-
-/* === Portfolio Section === */
-.portafolio {
-    background-color: #fafafa;
-    text-align: center;
 }
 
 .portafolio h2 {
     font-size: 2.5rem;
     margin-bottom: 50px;
-    color: #312682;
+    color: #ffffff;
 }
 
 .portafolio-grid {
@@ -247,7 +17,7 @@ img {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.74);
     transition: transform 0.3s ease;
 }
 
@@ -278,7 +48,7 @@ img {
 
 /* === About Section === */
 .about {
-    background-color: #171142;
+    background-color: #141314;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -314,8 +84,9 @@ img {
 
 /* === Contact Section === */
 .contact {
-    background-color: #ffffff;
+    background-color: #141314;
     text-align: center;
+    color: #ffffff;
 }
 
 .contact-container {
@@ -335,7 +106,7 @@ img {
 .contact-form h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #312682;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -348,14 +119,14 @@ img {
 .contact input, .contact textarea {
     padding: 15px;
     font-size: 1rem;
-    border: 1px solid #312682;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     outline: none;
     transition: border 0.3s ease;
 }
 
 .contact input:focus, .contact textarea:focus {
-    border-color: #BF1584;
+    border-color: #ffffff;
 }
 
 .contact-image {
@@ -374,7 +145,7 @@ img {
 
 /* === Footer === */
 .footer {
-    background-color: #16113a;
+    background-color: #052ca1;
     color: #fff;
     padding: 40px 50px;
     text-align: center;
@@ -399,7 +170,7 @@ img {
 }
 
 .footer .social-links a:hover {
-    color: #BF1584;
+    color: #757575;
 }
 
 /* =======================================
