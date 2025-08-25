@@ -29,8 +29,8 @@ img {
 /* === Botones === */
 .botre {
     display: inline-block; /* Asegura que el botón se ajuste al contenido */
-    background-color: #D3D936;
-    color: #312682;
+    background-color: #ffffff;
+    color: #0540f2;
     margin-top: 10px;
     padding: 10px 20px;
     border-radius: 50px;
@@ -40,25 +40,25 @@ img {
 
 .botre:hover {
     color: #ffffff;
-    background-color: #BF1584;
+    background-color: #0540f2;
 }
 
 .tarjetacontratame {
-    background-color: #D3D936;
-    color: #312682; /* Cambio de color para mejor contraste */
+    background-color: #0540f2;
+    color: #dacf3b; /* Cambio de color para mejor contraste */
     padding: 10px 20px;
     border-radius: 50px;
     transition: background-color 0.3s ease;
 }
 
 .tarjetacontratame:hover {
-    color: #ffffff;
-    background-color: #BF1584; /* Cambio de color para el hover */
+    color: #0540f2;
+    background-color: #ffffff; /* Cambio de color para el hover */
 }
 
 .cta {
-    background-color: #D3D936;
-    color: #312682;
+    background-color: #fff;
+    color: #0540f2;
     padding: 15px;
     border: none;
     border-radius: 50px;
@@ -68,8 +68,8 @@ img {
 }
 
 .cta:hover {
-    color: #fafafa;
-    background-color: #BF1584;
+    color: #ffffff;
+    background-color: #0540f2;
 }
 
 /* === Navbar === */
@@ -78,8 +78,8 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(160, 160, 160, 0.116);
+    background-color: #141314;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.884);
     position:fixed;
     top:0;
     left:0;
@@ -99,12 +99,12 @@ img {
 .nav-links a {
     font-weight: 500;
     padding: 10px;
-    color: #312682;
+    color: #ffffff;
     transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-    color: #BF1584; 
+    color: #0540f2;
 }
 
 /* Botón del menú hamburguesa */
@@ -120,7 +120,7 @@ img {
 /* === Portfolio Section === */
 .portafolio {
     padding: 100px 50px 10px; /* Ajuste el padding para evitar que el contenido quede detrás del navbar */
-    background-color: #16113a;
+    background-color: #141314;
     text-align: center;
 }
 
@@ -143,7 +143,7 @@ img {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(255, 0, 149, 0.137);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.795);
     transition: transform 0.3s ease;
 }
 
@@ -186,7 +186,7 @@ img {
 .services {
     padding: 80px 50px; /* Ajustado el padding para que sea consistente */
     text-align: center;
-    background-color: #16113a;
+    background-color: #141314;
 }
 
 .services h2 {
@@ -203,7 +203,8 @@ img {
 }
 
 .service-card {
-    background-color: #221b5c;
+    background-color: #ffffff;
+    color: #0540f2;
     padding: 30px;
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -215,24 +216,24 @@ img {
 .service-card h3 {
     font-size: 1.5rem;
     margin-bottom: 20px;
-    color: #D3D936;
+    color: #0540f2;
 }
 
 .service-card p {
     font-size: 1rem;
-    color: #ffffff;
+    color: #0540f2;
 }
 
 .service-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.829);
 }
 
 /* === Contact Section === */
 .contact {
     color: #ffffff;
     padding: 80px 50px;
-    background-color: #16113a;
+    background-color: #141314;
     text-align: center;
 }
 
@@ -261,7 +262,7 @@ img {
 .contact textarea {
     padding: 15px;
     font-size: 1rem;
-    border: 1px solid #D3D936;
+    border: 1px solid #141314;
     border-radius: 5px;
     outline: none;
     transition: border 0.3s ease;
@@ -269,7 +270,7 @@ img {
 
 .contact input:focus, 
 .contact textarea:focus {
-    border-color: #BF1584;
+    border-color: #0540f2;
 }
 
 .contact-container {
@@ -296,7 +297,7 @@ img {
 
 /* === Footer === */
 .footer {
-    background-color: #221b5c;
+    background-color: #042ba1;
     color: #fff;
     padding: 40px 50px;
     text-align: center;
@@ -321,7 +322,7 @@ img {
 }
 
 .footer .social-links a:hover {
-    color: #BF1584;
+    color: #0c0253;
 }
 
 /* =======================================
